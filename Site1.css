@@ -1,0 +1,176 @@
+/* Mise en forme */
+
+html {
+    width: 99%;
+}
+
+body {
+    margin : 4px;
+    
+}
+
+.name {
+    display: flex;
+    justify-content: space-around;
+}
+
+.informations {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.reco {
+    width: 100%;
+}
+/* Police coleurs ect ...*/
+
+.sectiongauche {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.informations {
+    display: flex;
+    flex-direction: column;
+}
+
+.titregauche {
+    font-size: 2em;
+    color : #FDD835;
+    text-align: center;
+    font-family: 'Roboto';
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.texteblabla {
+    display: none;
+}
+
+/* Logo */
+
+.fas.fa-music,.fas.fa-basketball-ball,.fas.fa-rocket {
+    color : #424242;
+    font-size: 2.5em;
+    border: 5px solid #424242;
+    padding: 0.5em;
+    border-radius: 50% ;
+}
+
+.far.fa-dot-circle,.fas.fa-circle {
+    font-size: 1em;
+    color: #FDD835;
+}
+
+.date {
+    display : flex;
+    flex-direction: column;
+    width: 15em;
+    font-size: 1em;
+    color: black;
+
+}
+
+.points {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.fas.fa-graduation-cap,.fas.fa-pencil-alt,.fas.fa-briefcase {
+    font-size: 3em;
+    color: #FDD835;   
+}
+
+.logocotebordure {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+
+.logo2 {
+    margin-left: 20px;
+}
+
+.conteneurlogo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: auto;
+    width: 90%;
+}
+
+/* Photo */
+
+.photo {
+    width: 100px;
+    height: 100px;
+    background: #FDD835;
+    border-radius: 60%;
+    border: #424242  solid 3px;
+}
+
+.photo1 {
+    display: none;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (min-width: 1024px) {
+
+    #moitie {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    /* Photo */
+
+    .photo1 {
+        display: inline;
+        width: 175px;
+        height: 175px;
+        background: #FDD835;
+        border-radius: 60%;
+        border: #424242  solid 3px;
+    }
+
+    .photo {
+        display: none;
+        
+    }
+
+    .sectiongauche {
+        background: #FDD835;
+        width: auto;
+    }
+
+    .titregauche {
+        font-size: 2em;
+        color : #424242;
+        text-align: center;
+        font-family: 'Roboto';
+    }
+
+    .fondphoto {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .texteblabla {
+        display: inline;
+    }
+
+    .partiedroite {
+        width: 70%;
+        margin-left: 65px;
+    }
+}
+
