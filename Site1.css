@@ -52,11 +52,15 @@ body {
     display: none;
 }
 
+p {
+    font-family: 'Roboto';
+}
+
 /* Logo */
 
 .fas.fa-music,.fas.fa-basketball-ball,.fas.fa-rocket {
     color : #424242;
-    font-size: 2.5em;
+    font-size: 1.5em;
     border: 5px solid #424242;
     padding: 0.5em;
     border-radius: 50% ;
@@ -143,6 +147,8 @@ body {
 
     .photo {
         display: none;
+        width: 1px;
+        height: 1px;
         
     }
 
@@ -153,9 +159,10 @@ body {
 
     .titregauche {
         font-size: 2em;
-        color : #424242;
+        color : #FDD835;
         text-align: center;
         font-family: 'Roboto';
+        background: #424242;
     }
 
     .fondphoto {
@@ -168,9 +175,80 @@ body {
         display: inline;
     }
 
-    .partiedroite {
-        width: 70%;
+    #partiedroite {
         margin-left: 65px;
     }
+
+    .partiegauche {
+        width: 100%;
+    }
+
+    .bio {
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+    .reco {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .info {
+        display: flex;
+        flex-direction: column;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+    .date {
+        display: flex;
+        flex-direction: column;
+        margin-right: 100px;
+    }
+
+    .infodroite {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-right: 100px;
+    }
+
+    .name {
+        font-family: 'Roboto';
+        font-size: 2em;
+        text-transform: uppercase;
+        justify-content: flex-start;
+
+    }
+
+    .prénom {
+        color : #FDD835;
+    }
+
+    .job {
+        font-family: 'Roboto';
+        font-size: 2em;
+        color: #424242;
+    }
+
+    .soul {
+        border-bottom: 2px solid #FDD835;
+    }
+
+    .logocotebordure {
+        border-bottom: 2px solid #FDD835;
+        width: 95%;
+    }
+    
 }
+
+@media screen and (min-width: 1981px) {
+    body {
+        margin-left: auto;
+        margin-right: auto;
+        width: 1920px;
+        height: 1080px;
+    }
+}
+
 
