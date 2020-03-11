@@ -71,6 +71,10 @@ p {
     color: #FDD835;
 }
 
+.date2 {
+    display: none;
+}
+
 .date {
     display : flex;
     flex-direction: column;
@@ -101,6 +105,10 @@ p {
 
 .logo2 {
     margin-left: 20px;
+}
+
+.margee {
+    margin-right: 1em;
 }
 
 .conteneurlogo {
@@ -186,6 +194,7 @@ p {
     .bio {
         margin-right: 20px;
         margin-left: 20px;
+        margin-bottom: 400px;
     }
 
     .reco {
@@ -201,8 +210,7 @@ p {
     }
 
     .date {
-        display: flex;
-        flex-direction: column;
+        width: auto;
         margin-right: 100px;
     }
 
@@ -239,6 +247,8 @@ p {
         border-bottom: 2px solid #FDD835;
         width: 95%;
     }
+
+    
     
 }
 
