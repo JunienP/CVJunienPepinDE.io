@@ -23,7 +23,18 @@ body {
 .reco {
     width: 100%;
 }
+
+.recoinf {
+    margin-bottom: 20px;
+}
+
 /* Police coleurs ect ...*/
+
+.job {
+    font-family: 'Roboto';
+    font-size: 2em;
+    color: #424242;
+}
 
 .sectiongauche {
     display: flex;
@@ -38,14 +49,14 @@ body {
 
 .titregauche {
     font-size: 2em;
-    color : #FDD835;
+    color : #e53935;
     text-align: center;
     font-family: 'Roboto';
 }
 
 .info {
     display: flex;
-    flex-direction: row;
+    flex-direction: space-around;
     justify-content: flex-start;
 }
 .texteblabla {
@@ -55,6 +66,12 @@ body {
 p {
     font-family: 'Roboto';
 }
+
+.soul {
+    border-bottom: 2px solid #e53935;
+    margin-right: 5px;   
+}
+
 
 /* Logo */
 
@@ -68,16 +85,14 @@ p {
 
 .far.fa-dot-circle,.fas.fa-circle {
     font-size: 1em;
-    color: #FDD835;
+    color: #e53935;
 }
 
-.date2 {
-    display: none;
-}
 
 .date {
     display : flex;
-    flex-direction: column;
+    flex-direction: wrap;
+    align-items: center;
     width: 15em;
     font-size: 1em;
     color: black;
@@ -93,7 +108,7 @@ p {
 
 .fas.fa-graduation-cap,.fas.fa-pencil-alt,.fas.fa-briefcase {
     font-size: 3em;
-    color: #FDD835;   
+    color: #e53935;   
 }
 
 .logocotebordure {
@@ -125,7 +140,7 @@ p {
 .photo {
     width: 100px;
     height: 100px;
-    background: #FDD835;
+    background: #e53935;
     border-radius: 60%;
     border: #424242  solid 3px;
 }
@@ -149,9 +164,9 @@ p {
         display: inline;
         width: 175px;
         height: 175px;
-        background: #FDD835;
+        background: #e53935;
         border-radius: 60%;
-        border: #424242  solid 3px;
+        border: #424242  solid 5px;
     }
 
     .photo {
@@ -162,13 +177,13 @@ p {
     }
 
     .sectiongauche {
-        background: #FDD835;
+        background: #e53935;
         width: auto;
     }
 
     .titregauche {
         font-size: 2em;
-        color : #FDD835;
+        color : #e53935;
         text-align: center;
         font-family: 'Roboto';
         background: #424242;
@@ -182,6 +197,10 @@ p {
 
     .texteblabla {
         display: inline;
+    }
+
+    .date2 {
+        width: 150px;
     }
 
     #partiedroite {
@@ -203,23 +222,28 @@ p {
         flex-direction: row;
     }
 
+    .recoinf {
+        margin-right: 20px;
+    }
+
+
     .info {
         display: flex;
         flex-direction: column;
-        margin-right: 20px;
-        margin-left: 20px;
+        margin-right: 10px;
+        margin-left: 10px;
     }
 
     .date {
         width: auto;
-        margin-right: 100px;
+        margin-right: 10px;
     }
 
     .infodroite {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        margin-right: 100px;
+        margin-right: 10px;
     }
 
     .name {
@@ -231,7 +255,7 @@ p {
     }
 
     .prénom {
-        color : #FDD835;
+        color : #e53935;
     }
 
     .job {
@@ -241,11 +265,12 @@ p {
     }
 
     .soul {
-        border-bottom: 2px solid #FDD835;
+        border-bottom: 2px solid #e53935;
+        margin-right: 5px;   
     }
 
     .logocotebordure {
-        border-bottom: 2px solid #FDD835;
+        border-bottom: 2px solid #e53935;
         width: 95%;
     }
 
