@@ -14,6 +14,10 @@ body {
     justify-content: space-around;
 }
 
+h1 {
+    width: auto;
+}
+
 .informations {
     display: flex;
     flex-direction: row;
@@ -33,7 +37,6 @@ body {
 .job {
     font-family: 'Roboto';
     font-size: 2em;
-    color: #424242;
 }
 
 .sectiongauche {
@@ -72,7 +75,13 @@ p {
     margin-right: 5px;   
 }
 
+.fas {
+    margin-right: 10px;
+}
 
+.far {
+    margin-right: 10px;
+}
 /* Logo */
 
 .fas.fa-music,.fas.fa-basketball-ball,.fas.fa-rocket {
@@ -113,10 +122,14 @@ p {
 
 .logocotebordure {
     display: flex;
-    flex-direction: row;
+    flex-direction: space-between;
     justify-content: start;
+    align-items: center;
 }
 
+.logo1 {
+    margin-right: 10px;
+}
 
 .logo2 {
     margin-left: 20px;
@@ -130,8 +143,9 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    align-items: center;
     height: auto;
-    width: 90%;
+    width: 99%;
     margin-bottom: 50px;
 }
 
