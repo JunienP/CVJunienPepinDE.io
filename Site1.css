@@ -82,6 +82,12 @@ p {
 .far {
     margin-right: 10px;
 }
+
+.logocotebordure {
+    border-bottom: 2px solid #e53935;
+    width: 95%;
+}
+
 /* Logo */
 
 .fas.fa-music,.fas.fa-basketball-ball,.fas.fa-rocket {
