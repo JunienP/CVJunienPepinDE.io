@@ -62,7 +62,6 @@ h1 {
 .sectiongauche {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
 }
 
 .informations {
@@ -212,8 +211,6 @@ p {
     #moitie {
         display: flex;
         flex-direction: row-reverse;
-        align-items: flex-start;
-        justify-content: flex-start;
     }
 
     /* Photo */
@@ -235,7 +232,7 @@ p {
     }
 
     .sectiongauche {
-        width: auto;
+        width: 500px;
         border: #e53935 solid 5px;
     }
 
@@ -262,6 +259,8 @@ p {
 
     #partiedroite {
         margin-left: 65px;
+        width: auto;
+        margin-right: auto;
     }
 
     .partiegauche {
@@ -301,7 +300,6 @@ p {
     .infodroite {
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
         align-items: flex-start;
         margin-right: 10px;
     }
@@ -332,6 +330,10 @@ p {
     .logocotebordure {
         border-bottom: 2px solid #e53935;
         width: 95%;
+    }
+
+    .liste {
+
     }
 
     
