@@ -28,11 +28,31 @@ h1 {
     width: 100%;
 }
 
+.propos {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.propos2 {
+    border-bottom: #e53935 solid 3px;
+}
+
 .recoinf {
     margin-bottom: 20px;
 }
 
+.none {
+    display: none;
+}
+
 /* Police coleurs ect ...*/
+
+.bio {
+    margin-right: 5px;
+    margin-left: 10px;
+}
 
 .job {
     font-family: 'Roboto';
@@ -48,6 +68,15 @@ h1 {
 .informations {
     display: flex;
     flex-direction: column;
+}
+
+label {
+    padding-right: 10px;
+    font-size: 2em;
+}
+
+progress {
+    color: #e53935;;
 }
 
 .titregauche {
@@ -71,7 +100,7 @@ p {
 }
 
 .soul {
-    border-bottom: 2px solid #e53935;
+    border-bottom: 3px solid #e53935;
     margin-right: 5px;   
 }
 
@@ -108,7 +137,7 @@ p {
     display : flex;
     flex-direction: wrap;
     align-items: center;
-    width: 15em;
+    width: 17em;
     font-size: 1em;
     color: black;
 
@@ -160,7 +189,6 @@ p {
 .photo {
     width: 100px;
     height: 100px;
-    background: #e53935;
     border-radius: 60%;
     border: #424242  solid 3px;
 }
@@ -171,12 +199,22 @@ p {
 
 /* MEDIA QUERIES */
 
-@media screen and (min-width: 1024px) {
+
+@media screen and (min-width: 200px) {
+    .titregauche {
+        border-bottom: #e53935 solid 5px;
+        color: #424242;
+    }
+}
+
+@media screen and (min-width: 1025px) {
 
     #moitie {
         display: flex;
         flex-direction: row-reverse;
-    }
+        align-items: flex-start;
+        justify-content: flex-start;
+    }s
 
     /* Photo */
 
@@ -184,9 +222,9 @@ p {
         display: inline;
         width: 175px;
         height: 175px;
-        background: #e53935;
         border-radius: 60%;
-        border: #424242  solid 5px;
+        border: #424242 solid 5px;
+        margin-top: 20px;
     }
 
     .photo {
@@ -197,16 +235,15 @@ p {
     }
 
     .sectiongauche {
-        background: #e53935;
         width: auto;
+        border: #e53935 solid 5px;
     }
 
     .titregauche {
         font-size: 2em;
-        color : #e53935;
         text-align: center;
         font-family: 'Roboto';
-        background: #424242;
+        background:#e53935;
     }
 
     .fondphoto {
@@ -234,7 +271,7 @@ p {
     .bio {
         margin-right: 20px;
         margin-left: 20px;
-        margin-bottom: 400px;
+        font-size: 1.25em;
     }
 
     .reco {
@@ -252,17 +289,20 @@ p {
         flex-direction: column;
         margin-right: 10px;
         margin-left: 10px;
+        font-size: 1.5em;
     }
 
     .date {
         width: auto;
         margin-right: 10px;
+        margin-top: 8px;
     }
 
     .infodroite {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        align-items: flex-start;
         margin-right: 10px;
     }
 
@@ -285,7 +325,7 @@ p {
     }
 
     .soul {
-        border-bottom: 2px solid #e53935;
+        border-bottom: 3px solid #e53935;
         margin-right: 5px;   
     }
 
