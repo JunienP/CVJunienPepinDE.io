@@ -36,7 +36,7 @@ h1 {
 }
 
 .propos2 {
-    border-bottom: #e53935 solid 3px;
+    border-bottom: #cd201f solid 3px;
 }
 
 .recoinf {
@@ -67,39 +67,63 @@ h1 {
 .informations {
     display: flex;
     flex-direction: column;
+    
 }
 
 label {
     padding-right: 10px;
-    font-size: 2em;
+    font-size: 1.5em;
+    font-family: 'Roboto';
 }
 
 progress {
-    color: #e53935;;
+    color: #cd201f;;
 }
 
 .titregauche {
     font-size: 2em;
-    color : #e53935;
-    text-align: center;
+    color : #cd201f;
+    text-align: left;
     font-family: 'Roboto';
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 .info {
     display: flex;
     flex-direction: space-around;
     justify-content: flex-start;
+    font-family: 'Roboto';
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 1.5em;
 }
+
 .texteblabla {
     display: none;
 }
+
+h1 {
+    font-family: 'Roboto';
+}
+
+h2 {
+    font-family: 'Roboto';
+}
+h3 {
+    font-family: 'Roboto';
+} 
 
 p {
     font-family: 'Roboto';
 }
 
+h4 {
+    font-family: 'Roboto';
+}
+
 .soul {
-    border-bottom: 3px solid #e53935;
+    border-bottom: 3px solid #cd201f;
     margin-right: 5px;   
 }
 
@@ -112,7 +136,7 @@ p {
 }
 
 .logocotebordure {
-    border-bottom: 2px solid #e53935;
+    border-bottom: 2px solid #cd201f;
     width: 95%;
 }
 
@@ -128,7 +152,7 @@ p {
 
 .far.fa-dot-circle,.fas.fa-circle {
     font-size: 1em;
-    color: #e53935;
+    color: #cd201f;
 }
 
 
@@ -151,7 +175,7 @@ p {
 
 .fas.fa-graduation-cap,.fas.fa-pencil-alt,.fas.fa-briefcase {
     font-size: 3em;
-    color: #e53935;   
+    color: #cd201f;   
 }
 
 .logocotebordure {
@@ -189,7 +213,7 @@ p {
     width: 100px;
     height: 100px;
     border-radius: 60%;
-    border: #424242  solid 3px;
+    border: black solid 3px;
 }
 
 .photo1 {
@@ -201,8 +225,9 @@ p {
 
 @media screen and (min-width: 200px) {
     .titregauche {
-        border-bottom: #e53935 solid 5px;
-        color: #424242;
+        border-bottom: #cd201f solid 3px;
+        color: black;
+        font-family: 'Roboto';
     }
 }
 
@@ -211,6 +236,8 @@ p {
     #moitie {
         display: flex;
         flex-direction: row-reverse;
+        align-items: flex-start;
+        justify-content: flex-end;
     }
 
     /* Photo */
@@ -220,8 +247,9 @@ p {
         width: 175px;
         height: 175px;
         border-radius: 60%;
-        border: #424242 solid 5px;
-        margin-top: 20px;
+        border: black solid 5px;
+        margin-top: 60px;
+        margin-bottom: 60px;
     }
 
     .photo {
@@ -232,15 +260,15 @@ p {
     }
 
     .sectiongauche {
-        width: 500px;
-        border: #e53935 solid 5px;
+        width: 400px;
+        border: #cd201f solid 5px;
     }
 
     .titregauche {
         font-size: 2em;
         text-align: center;
         font-family: 'Roboto';
-        background:#e53935;
+        background:#cd201f;
     }
 
     .fondphoto {
@@ -257,14 +285,20 @@ p {
         width: 150px;
     }
 
-    #partiedroite {
-        margin-left: 65px;
-        width: auto;
-        margin-right: auto;
+    .space {
+        margin-top: 10px;
+        margin-bottom: 10px;
     }
 
-    .partiegauche {
-        width: 100%;
+    #partiedroite {
+        margin-left: 65px;
+        width: initial;
+        height: 1080px;
+    }
+
+    .partie {
+        height: 1080px;
+        width: 980px;
     }
 
     .bio {
@@ -282,10 +316,9 @@ p {
         margin-right: 20px;
     }
 
-
     .info {
         display: flex;
-        flex-direction: column;
+        font-family: 'Roboto';
         margin-right: 10px;
         margin-left: 10px;
         font-size: 1.5em;
@@ -313,7 +346,7 @@ p {
     }
 
     .prénom {
-        color : #e53935;
+        color : #cd201f;
     }
 
     .job {
@@ -323,22 +356,20 @@ p {
     }
 
     .soul {
-        border-bottom: 3px solid #e53935;
+        border-bottom: 3px solid #cd201f;
         margin-right: 5px;   
     }
 
     .logocotebordure {
-        border-bottom: 2px solid #e53935;
+        border-bottom: 2px solid #cd201f;
         width: 95%;
     }
 
-    .liste {
-
+    h1 {
+        width: 980px;
     }
-
-    
-    
 }
+
 
 @media screen and (min-width: 1981px) {
     body {
