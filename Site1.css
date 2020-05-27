@@ -1,5 +1,16 @@
 /* Mise en forme */
 
+a /* Liens par défaut (non survolés) */
+{
+   color: black;
+}
+
+a:hover /* Apparence au survol des liens */
+{
+   color: #00BFA5;
+
+}
+
 html {
     width: 99%;
 }
@@ -36,7 +47,7 @@ h1 {
 }
 
 .propos2 {
-    border-bottom: #cd201f solid 3px;
+    border-bottom: #00BFA5 solid 3px;
 }
 
 .recoinf {
@@ -77,17 +88,17 @@ label {
 }
 
 progress {
-    color: #cd201f;;
+    color: #00BFA5;
 }
+
 
 .titregauche {
     font-size: 2em;
-    color : #cd201f;
     text-align: left;
     font-family: 'Roboto';
-    margin-left: 5px;
-    margin-right: 5px;
+    border-bottom: #00BFA5 solid 3px;
 }
+
 
 .info {
     display: flex;
@@ -123,7 +134,7 @@ h4 {
 }
 
 .soul {
-    border-bottom: 3px solid #cd201f;
+    border-bottom: 3px solid #00BFA5;
     margin-right: 5px;   
 }
 
@@ -136,23 +147,23 @@ h4 {
 }
 
 .logocotebordure {
-    border-bottom: 2px solid #cd201f;
+    border-bottom: 2px solid #00BFA5;
     width: 95%;
 }
 
 /* Logo */
 
 .fas.fa-music,.fas.fa-basketball-ball,.fas.fa-rocket {
-    color : #424242;
+    color : black;
     font-size: 1.5em;
-    border: 5px solid #424242;
+    border: 5px solid black;
     padding: 0.5em;
     border-radius: 50% ;
 }
 
 .far.fa-dot-circle,.fas.fa-circle {
     font-size: 1em;
-    color: #cd201f;
+    color: #00BFA5;
 }
 
 
@@ -175,7 +186,7 @@ h4 {
 
 .fas.fa-graduation-cap,.fas.fa-pencil-alt,.fas.fa-briefcase {
     font-size: 3em;
-    color: #cd201f;   
+    color: #00BFA5;   
 }
 
 .logocotebordure {
@@ -183,6 +194,10 @@ h4 {
     flex-direction: space-between;
     justify-content: start;
     align-items: center;
+}
+
+.contact {
+    border-bottom: #00BFA5 solid 3px;
 }
 
 .logo1 {
@@ -207,13 +222,19 @@ h4 {
     margin-bottom: 50px;
 }
 
+.contener {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
 /* Photo */
 
 .photo {
     width: 100px;
     height: 100px;
     border-radius: 60%;
-    border: black solid 3px;
+    border: #00BFA5 solid 3px;
 }
 
 .photo1 {
@@ -225,13 +246,34 @@ h4 {
 
 @media screen and (min-width: 200px) {
     .titregauche {
-        border-bottom: #cd201f solid 3px;
         color: black;
         font-family: 'Roboto';
     }
 }
 
 @media screen and (min-width: 1025px) {
+
+    .languages {
+        width: min-content;
+    }
+    
+    .language {
+        display: flex;
+        justify-content: center;
+    }
+
+    .ulcontener {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .contener {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: baseline;
+    }
 
     #moitie {
         display: flex;
@@ -242,33 +284,21 @@ h4 {
 
     /* Photo */
 
-    .photo1 {
-        display: inline;
+    .photo {
         width: 175px;
         height: 175px;
         border-radius: 60%;
-        border: black solid 5px;
-        margin-top: 60px;
-        margin-bottom: 60px;
-    }
-
-    .photo {
-        display: none;
-        width: 1px;
-        height: 1px;
-        
+        border: #00BFA5 solid 5px;
     }
 
     .sectiongauche {
-        width: 400px;
-        border: #cd201f solid 5px;
+        border: #00BFA5 solid 5px;
     }
 
     .titregauche {
         font-size: 2em;
         text-align: center;
         font-family: 'Roboto';
-        background:#cd201f;
     }
 
     .fondphoto {
@@ -341,15 +371,17 @@ h4 {
     }
 
     .name {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
         font-family: 'Roboto';
         font-size: 2em;
         text-transform: uppercase;
-        justify-content: flex-start;
 
     }
 
     .prénom {
-        color : #cd201f;
+        color : #00BFA5;
     }
 
     .job {
@@ -359,17 +391,24 @@ h4 {
     }
 
     .soul {
-        border-bottom: 3px solid #cd201f;
+        border-bottom: 3px solid #00BFA5;
         margin-right: 5px;   
     }
 
     .logocotebordure {
-        border-bottom: 2px solid #cd201f;
+        border-bottom: 2px solid #00BFA5;
         width: 95%;
     }
 
     h1 {
         width: 980px;
+    }
+
+    .contenerContact {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 }
 
