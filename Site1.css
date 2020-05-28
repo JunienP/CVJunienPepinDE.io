@@ -7,7 +7,7 @@ a /* Liens par défaut (non survolés) */
 
 a:hover /* Apparence au survol des liens */
 {
-   color: #00BFA5;
+   color: #43A047;
 
 }
 
@@ -47,7 +47,7 @@ h1 {
 }
 
 .propos2 {
-    border-bottom: #00BFA5 solid 3px;
+    border-bottom: #43A047 solid 3px;
 }
 
 .recoinf {
@@ -88,7 +88,7 @@ label {
 }
 
 progress {
-    color: #00BFA5;
+    color: #00695C;
 }
 
 
@@ -96,9 +96,18 @@ progress {
     font-size: 2em;
     text-align: left;
     font-family: 'Roboto';
-    border-bottom: #00BFA5 solid 3px;
 }
 
+.titregauche:hover {
+    background-size: 100% 100%;
+}
+
+.titregauche {
+    text-align: center;
+    background: linear-gradient(to top, #43A047 0%, transparent 10%) no-repeat;
+    background-size: 0 100%;
+    transition : background-size 0.4s;
+}
 
 .info {
     display: flex;
@@ -134,7 +143,7 @@ h4 {
 }
 
 .soul {
-    border-bottom: 3px solid #00BFA5;
+    border-bottom: 3px solid #43A047;
     margin-right: 5px;   
 }
 
@@ -147,7 +156,7 @@ h4 {
 }
 
 .logocotebordure {
-    border-bottom: 2px solid #00BFA5;
+    border-bottom: 2px solid #43A047;
     width: 95%;
 }
 
@@ -163,7 +172,7 @@ h4 {
 
 .far.fa-dot-circle,.fas.fa-circle {
     font-size: 1em;
-    color: #00BFA5;
+    color: #43A047;
 }
 
 
@@ -186,7 +195,7 @@ h4 {
 
 .fas.fa-graduation-cap,.fas.fa-pencil-alt,.fas.fa-briefcase {
     font-size: 3em;
-    color: #00BFA5;   
+    color: #43A047;   
 }
 
 .logocotebordure {
@@ -197,7 +206,7 @@ h4 {
 }
 
 .contact {
-    border-bottom: #00BFA5 solid 3px;
+    border-bottom: #43A047 solid 3px;
 }
 
 .logo1 {
@@ -234,7 +243,7 @@ h4 {
     width: 100px;
     height: 100px;
     border-radius: 60%;
-    border: #00BFA5 solid 3px;
+    border: #43A047 solid 3px;
 }
 
 .photo1 {
@@ -288,11 +297,11 @@ h4 {
         width: 175px;
         height: 175px;
         border-radius: 60%;
-        border: #00BFA5 solid 5px;
+        border: #43A047 solid 5px;
     }
 
     .sectiongauche {
-        border: #00BFA5 solid 5px;
+        border: #43A047 solid 5px;
     }
 
     .titregauche {
@@ -381,7 +390,7 @@ h4 {
     }
 
     .prénom {
-        color : #00BFA5;
+        color : #43A047;
     }
 
     .job {
@@ -391,12 +400,12 @@ h4 {
     }
 
     .soul {
-        border-bottom: 3px solid #00BFA5;
+        border-bottom: 3px solid #43A047;
         margin-right: 5px;   
     }
 
     .logocotebordure {
-        border-bottom: 2px solid #00BFA5;
+        border-bottom: 2px solid #43A047;
         width: 95%;
     }
 
