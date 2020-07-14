@@ -17,6 +17,9 @@ h1 {
     font-family: 'Roboto';
 } 
 
+h3 {
+    font-family: 'Roboto';
+}
 h2 {
     padding-left: 10px;
     font-family: 'Roboto';
@@ -25,6 +28,7 @@ h2 {
 
 h4 {
     text-decoration: underline;
+    font-family: 'Roboto';
 }
 
 .date {
